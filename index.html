@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerenciador de Atividades</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Firebase SDK -->
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
+</head>
+<body>
+
+<header>
+  <h1>Atividades Oitão</h1>
+</header>
+
+<main>
+  <form id="atividadeForm">
+    <input type="text" id="materia" placeholder="Matéria" required>
+    <textarea id="descricao" rows="3" placeholder="Descrição da atividade" required></textarea>
+    <input type="date" id="dataEntrega" required>
+    <button type="submit">Adicionar Atividade</button>
+  </form>
+
+  <h2>Atividades</h2>
+  <div id="atividadesList"></div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
