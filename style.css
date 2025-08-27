@@ -1,78 +1,96 @@
 body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f9;
-      margin: 0;
-      padding: 0;
-    }
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
 
-    header {
-      background-color: #4CAF50;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
 
-    main {
-      max-width: 600px;
-      margin: 20px auto;
-      padding: 10px;
-      background-color: white;
-      border-radius: 8px;
-      box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
-    }
+main {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
 
-    form input, form textarea, form button {
-      width: 100%;
-      margin: 8px 0;
-      padding: 10px;
-      border-radius: 5px;
-      border: 1px solid #ccc;
-    }
+form input, form textarea, form button {
+  width: 100%;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
 
-    form button {
-      background-color: #4CAF50;
-      color: white;
-      border: none;
-      cursor: pointer;
-      font-size: 16px;
-    }
+form button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
 
-    form button:hover {
-      background-color: #45a049;
-    }
+form button:hover {
+  background-color: #45a049;
+}
 
-    .atividade {
-      border-bottom: 1px solid #ddd;
-      padding: 10px 0;
-    }
+.atividade {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+  position: relative;
+}
 
-    .atividade:last-child {
-      border-bottom: none;
-    }
+.atividade:last-child {
+  border-bottom: none;
+}
 
-    .atividade h3 {
-      margin: 0;
-    }
+.atividade h3 {
+  margin: 0;
+}
 
-    .atividade p {
-      margin: 5px 0;
-    }
+.atividade p {
+  margin: 5px 0;
+}
 
-    .atividade span {
-      font-size: 0.9em;
-      color: #555;
-    }
+.atividade span {
+  font-size: 0.9em;
+  color: #555;
+}
 
-    .delete-btn {
-      background-color: #f44336;
-      color: white;
-      border: none;
-      padding: 5px 10px;
-      border-radius: 5px;
-      cursor: pointer;
-      float: right;
-    }
+/* Botão de excluir */
+.delete-btn {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  float: right;
+  margin-left: 5px;
+}
 
-    .delete-btn:hover {
-      background-color: #d32f2f;
-    }
+.delete-btn:hover {
+  background-color: #d32f2f;
+}
+
+/* Botão de editar */
+.edit-btn {
+  background-color: #ff9800;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  float: right;
+}
+
+.edit-btn:hover {
+  background-color: #e68900;
+}
